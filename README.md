@@ -83,3 +83,7 @@ Once you've added or modified bucket definitions in `config.yaml`, you can apply
    ```
 
 This will provision or update the S3 buckets as defined in `config.yaml` for the active workspace.
+
+## Design Decisions
+
+Design decisions can be found in the `DESIGN.md` file.
