@@ -1,0 +1,19 @@
+context:
+  development:
+    aws_account_id: "1234567890" # unused but helpful for reference
+    aws_region: "us-west-2"
+    environment: "dev"
+    role_arn: "arn:aws:iam::1234567890:role/role-name"
+    session_name: "session-name"
+  staging:
+    aws_account_id: "2345678901" # unused but helpful for reference
+    aws_region: "us-west-2"
+    environment: "staging"
+    role_arn: "arn:aws:iam::2345678901:role/role-name"
+    session_name: "session-name"
+  production:
+    aws_account_id: "3456789012" # unused but helpful for reference
+    aws_region: "us-west-2"
+    environment: "prod"
+    role_arn: "arn:aws:iam::3456789012:role/role-name"
+    session_name: "session-name"

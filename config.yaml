@@ -1,0 +1,17 @@
+buckets:
+  development:
+    bucket01:
+      name: "bucket-01"
+      encryption_type: "SSE-S3"
+      force_destroy: true
+  staging:
+    bucket02:
+      name: "bucket-02"
+      encryption_type: "SSE-S3"
+      force_destroy: true
+  production:
+    bucket03:
+      name: "bucket-03"
+      encryption_type: "SSE-S3"
+      force_destroy: false
+      versioning: true
