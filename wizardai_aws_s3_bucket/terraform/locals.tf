@@ -1,7 +1,7 @@
 locals {
   # Decoding the context and config YAML files
   context = yamldecode(file("${path.module}/context.yaml"))
-  config  = yamldecode(file("${path.root}/config.yaml"))
+  config  = yamldecode(file("${path.module}/config.yaml"))
 
   # Extract context based on the current workspace
   context = local.context["context"][terraform.workspace]

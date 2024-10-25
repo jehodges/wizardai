@@ -65,7 +65,11 @@ In this case, `dev-bucket02` will be provisioned with KMS encryption, versioning
 ## How to Apply Changes
 
 Once you've added or modified bucket definitions in `config.yaml`, you can apply the changes by following these steps:
-
+1. **Navigate to the terraform directory** :
+   ```bash
+   cd wizardai_aws_s3_bucket/terraform
+   ```
+   
 1. **Select the workspace** for the environment you are working in:
    ```bash
    terraform workspace select development
